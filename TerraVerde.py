@@ -50,7 +50,7 @@ def main():
 
     # read in excel file
     xlsx_file = pd.ExcelFile('Raw_Interval_Data.xlsx')
-    tab_list = ['10']
+    tab_list = ['1','3','4','6','9','10']
     
     writer = pd.ExcelWriter('output.xlsx')
     
